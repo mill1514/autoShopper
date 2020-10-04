@@ -1,0 +1,2 @@
+# autoShopper
+Shop automatically.
