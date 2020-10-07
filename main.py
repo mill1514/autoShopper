@@ -18,5 +18,12 @@ def main():
 
 	# Click the "checkout" button
 	asu.clickButtonOfClass("checkoutBtn", browser)
+	time.sleep(5)
+
+	# Type user info
+	asu.typeTextIntoFieldById("sign-in-email", "doofus@weiner.com", browser)
+	#asu.typeTextIntoFieldById("sign-in-password-input", "hunter23", browser)
+	time.sleep(5)
+
 
 main()
